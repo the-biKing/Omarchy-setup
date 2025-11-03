@@ -3,7 +3,7 @@ My way of setting up Omarchy.
 ## Installation
 ISO : https://iso.omarchy.org/omarchy-3.1.4.iso  
 Etcher : https://etcher.balena.io/#download-etcher
-## Dual boot
+### Dual boot
 1. Edit `/boot/limini.conf`
 2. Add  
 ```
@@ -11,5 +11,5 @@ Etcher : https://etcher.balena.io/#download-etcher
      protocol: efi
      path: uuid(xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx):/EFI/Microsoft/Boot/bootmgfw.efi
 ```
-  - 
+  - [How to find UUID](dualboot-detail.md)
 3. Execute `limini-update`
