@@ -1,3 +1,15 @@
 # Omarchy-setup
 My way of setting up Omarchy.  
-ISO : https://iso.omarchy.org/omarchy-3.1.4.iso
+## Installation
+ISO : https://iso.omarchy.org/omarchy-3.1.4.iso  
+Etcher : https://etcher.balena.io/#download-etcher
+## Dual boot
+1. Edit `/boot/limini.conf`
+2. Add  
+```
+ /Window
+     protocol: efi
+     path: uuid(xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx):/EFI/Microsoft/Boot/bootmgfw.efi
+```
+  - 
+3. Execute `limini-update`
