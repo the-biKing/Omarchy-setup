@@ -25,7 +25,6 @@
     ls /mnt/esp/EFI/Microsoft/Boot/
     ```
     If you see `bootmgfw.efi`, that’s your Windows EFI partition.  
-    `ls -a` to list all file and navigate if directory not found.
 
     After you checked, you can unmount by:
    ```
