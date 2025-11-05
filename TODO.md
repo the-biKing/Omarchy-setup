@@ -1,4 +1,5 @@
 # 📝 To-Do List
+- [ ] use pipenv
 - [ ] make matplotlib follow system theme    
   - [matplotlib costumization](https://matplotlib.org/stable/users/explain/customizing.html)
   - set backend to QtAgg
