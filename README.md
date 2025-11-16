@@ -4,7 +4,7 @@ My way of setting up Omarchy.
 ISO : https://iso.omarchy.org/omarchy-3.1.4.iso  
 Etcher : https://etcher.balena.io/#download-etcher
 ### Dual boot
-1. Edit `/boot/limini.conf`  with `sudo nvim /boot/limine.conf`
+1. Edit `/boot/limine.conf`  with `sudo nvim /boot/limine.conf`
 2. Add  
 ```
  /Window
