@@ -12,4 +12,4 @@ Etcher : https://etcher.balena.io/#download-etcher
      path: uuid(xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx):/EFI/Microsoft/Boot/bootmgfw.efi
 ```
   - [How to find UUID](dualboot-detail.md)
-3. Execute `limini-update`
+3. Execute `limine -update`
